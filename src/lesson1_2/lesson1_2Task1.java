@@ -20,7 +20,7 @@ public class lesson1_2Task1 {
             System.out.println("двухзначное.");
         } else if (targetNumber < 10) {
             System.out.println("однозначное.");
-        } else {
+        } else{
             System.out.println("трехзначное и более.");
         }
     }
