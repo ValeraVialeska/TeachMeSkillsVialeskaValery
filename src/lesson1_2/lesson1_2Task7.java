@@ -14,28 +14,20 @@
 public class lesson1_2Task7 {
     public static void main(String[] args) {
 
-        int programmer = 56;
+        int programmer = 99;
 
-        if (programmer > 100 );{
-            System.out.println(programmer %= 100);
+        if (programmer % 10 == 1 || programmer % 100 == 1){
+            System.out.println(programmer + "программист");
         }
-             if (programmer < 100);{
-            System.out.println(programmer %= 10);
+        if (programmer % 10 == 2 || programmer % 100 == 2 || programmer % 10 == 3 || programmer % 100 == 3 || programmer % 10 == 4 || programmer % 100 == 4){
+            System.out.println(programmer +"программиста");
         }
-        
-        if (programmer == 1);{
-            System.out.println("программист");
+        if (programmer % 10 == 11 || programmer % 100 == 11 || programmer % 10 == 12 || programmer % 100 == 12 || programmer % 10 == 13 || programmer % 100 == 13 || programmer % 10 == 14 || programmer % 100 == 14){
+            System.out.println(programmer +"программистов");
         }
-
-        if (programmer == 11 || programmer == 12 || programmer == 13 || programmer == 14);{
-            System.out.println("программистов");
+        else if (programmer % 10 == 5 || programmer % 100 == 5 || programmer % 10 == 6 || programmer % 100 == 6 || programmer % 10 == 7 || programmer % 100 == 7 || programmer % 10 == 8 || programmer % 100 == 8 || programmer % 10 == 9 || programmer % 100 == 9) {
+            System.out.println(programmer + "программистов");
         }
-        if (programmer == 2 || programmer == 3 || programmer == 4);{
-            System.out.println("программиста");
-        }if (programmer == 5 || programmer == 6 || programmer == 7 || programmer == 8 || programmer == 9);{
-            System.out.println("программистов");
         }
-
-    }
 }
-/** что то я не понимаю почему оно не считывает нужное значение  а просто все*/
+/** В общем и получилось,и как бы нет я считаю.Хотелось бы услышать ваши коментарии по поводу укорочения кода,и я так понимаю если числа больше ста то работать ничего не будет. */
